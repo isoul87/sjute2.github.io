@@ -1,0 +1,20 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    background-color: rgba(245, 245, 245, 0.731);
+
+ }
+   
+ nav {
+    background-color: white;
+    display: flex;
+
+ }
+
+ nav ul {
+    
+ }
