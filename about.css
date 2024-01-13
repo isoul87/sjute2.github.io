@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: inherit;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: whitesmoke;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    transition: all;
+    transition-duration: 1000ms;
+} 
+
+nav ul li a:hover {
+    border-bottom:1px solid red;
+    transition-duration: 400ms;
+}
+
+section {
+    
+    
+    margin-bottom: 50px;
+}
+
+.poster {
+    width: 700px;
+    height: 700px;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+    float: left;
+    
+}
+
+.kolom {
+    margin: 50px 0px 50px 0px;
+}
+
+ .kolom .judul1 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 12px;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+
+#ch {
+    display: none;
+}
+
+
+#ch:checked ~ .cdes {
+    display:        ;
+}
+
+
+#ch:checked ~ .deskripsi1 {
+  display: block;
+}
+
+
+
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    background-color: green;
+    padding: 1px 13px;
+    border-radius: 3px;
+    margin-top: 12px;
+    transition: all;
+    transition: 1000ms;
+}
+
+#pdev {
+    width: 1000px;
+    margin: auto ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pre {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+    margin: 70px;
+    border-radius: 20px;
+    
+}
+
+.pre img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pre .cdev {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 107, 150, 0.6);
+    text-align: center;
+}
+
+.cdev h1 {
+    color: white;
+}
+
+.cdev p {
+    color: whitesmoke;
+}
+
+
+
+
+@media all and (min-width:0px) and (max-width:920px){
+    #pdev {
+        width: 540px;
+        margin: 50px auto;
+    }
+
+    .section {
+        width: 540px;
+        margin: 50px auto;
+        float: none;
+    }
+
+    .kolom{
+        width: 540px;
+        margin: 90px auto;
+    
+    }
+}
+
+
+.pre .action-1 {
+    left: -360px;
+    transition: all 0,5s;
+}
+
+.pre:hover .action-1{
+    left: 0px;
+    transition: all 0.6s;
+}
+.pre .action-2 {
+    left: -360px;
+    transition: all 0,5s;
+}
+
+.pre:hover .action-2{
+    left: 0px;
+    transition: all 0.6s;
+}
+.pre .action-3 {
+    left: -360px;
+    transition: all 0,5s;
+}
+
+.pre:hover .action-3{
+    left: 0px;
+    transition: all 0.6s;
+}
+.pre .action-4{
+    left: -360px;
+    transition: all 0,5s;
+}
+
+.pre:hover .action-4{
+    left: 0px;
+    transition: all 0.6s;
+}
+
+  
+
